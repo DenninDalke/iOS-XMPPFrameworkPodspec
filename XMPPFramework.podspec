@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = "Robbie Hanson"
   s.source       = { :git => "https://github.com/robbiehanson/XMPPFramework.git", :tag => "3.6.4" }
-  s.source_files  = "Authentication/**/*.{h,m}", "Categories/**/*.{h,m}", "Core/**/*.{h,m}", "Extensions/**/*.{h,m}", "Utilities/**/*.{h,m}", "Vendor/**/*.{h,m}"
+  s.source_files  = "Authentication/*", "Authentication/*/*", "Categories/*", "Core/*", "Extensions/*", "Extensions/*/*", "Extensions/*/*/*", "Utilities/*", "Vendor/*", "Vendor/*/*", "Vendor/*/*/*", "Vendor/*/*/*/*"
  
 end
